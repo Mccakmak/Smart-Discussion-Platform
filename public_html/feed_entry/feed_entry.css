@@ -1,0 +1,9 @@
+.feed_entry
+{
+    grid-area: feed_entry;
+}
+
+.feed_entry h4:hover
+{
+	text-decoration: underline;
+}

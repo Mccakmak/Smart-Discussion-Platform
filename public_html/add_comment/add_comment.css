@@ -1,0 +1,21 @@
+#add_comment{
+    /*background:rgb(201, 217, 238);*/
+    height: 200px;
+}
+
+#add_comment textarea
+{
+	/*background-color: rgba(235, 251, 252,0.3);*/
+	border: 1px solid #345578;
+	margin-top: 10px;
+}
+
+.adding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comment_button{
+	margin-top: 25px;
+    float: right;
+}

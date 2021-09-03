@@ -1,0 +1,14 @@
+#feed_page
+{
+    display: grid;  
+    height: 100%;
+    grid-template-rows: 0fr 1fr 0fr;    
+    grid-template-columns: 0.15fr 0.65fr 0.2fr;
+    grid-template-areas: "navbar navbar navbar" "hot_topics feed_entry activity" "footer footer footer";
+    padding: 0;
+
+}
+/*for firefox space*/
+body {
+    overflow: hidden;
+}

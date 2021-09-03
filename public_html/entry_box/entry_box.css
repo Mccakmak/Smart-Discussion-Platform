@@ -1,0 +1,44 @@
+#entry_box{
+    margin-bottom: 10px;    
+}
+
+.box1{
+    background:rgb(201, 217, 238);
+    height: 80px;
+    word-break: break-all;
+}
+
+.box2{
+    height: 30px;
+    background: rgb(175, 196, 227);
+}
+
+.comment{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+}
+
+.like_button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dislike_button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.date{
+    float: right;
+}
+.username{
+    float:right;
+    padding-right: 10px;
+}
+
+li{
+    display: inline;
+    padding-right: 10px;
+}

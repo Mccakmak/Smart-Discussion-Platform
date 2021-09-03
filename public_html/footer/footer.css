@@ -1,0 +1,31 @@
+
+.copyright {
+  padding: 5px;
+  /*position: absolute;*/
+  width: 100%;
+  /*bottom: -55px;*/
+ /* background-image: linear-gradient(#6d94bf, #446e9b 50%, #3e648d);*/
+  background: #3e648d;
+  border: 1px solid #345578;
+  color:white;
+}
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0; 
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px; 
+}
+
+.copyright-menu a
+{
+  color: white;
+}
+
+.footer{
+    grid-area: footer; 
+    height: 5%;
+}

@@ -1,0 +1,51 @@
+#entry
+{
+	min-height: 100%;
+	overflow-y:scroll;
+    height:650px;            /* proper alert view*/
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.entry
+{
+    grid-area: entry;
+}
+
+#entry h2
+{
+    text-align: center;
+}
+
+#page_div
+{
+    left: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+#page_nums_form_orig .custom-select
+{   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 6% !important;
+
+}
+
+.DivToScroll
+{   
+    background-color: rgba(184, 206, 227,0.3);
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+
+/*.DivWithScroll 
+{
+    height:585px;         
+    overflow:scroll;
+    overflow-x:hidden;
+}*/

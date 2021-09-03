@@ -1,0 +1,8 @@
+.intro{
+    grid-area: intro;
+}
+#carouselExampleIndicators img
+{
+	height: 650px;
+	background-size:auto;
+}

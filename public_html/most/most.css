@@ -1,0 +1,25 @@
+.most{
+    grid-area: most;
+    background-color: rgba(184, 206, 227,0.3);
+}
+
+#most_like
+{
+	margin-left: 15px;
+}
+
+#most_like_header
+{
+	color: #08f;
+}
+
+#most_dislike_header
+{
+	color: #ee0000;
+}
+#most_user_text 
+{
+	color: #081aa1;
+	text-decoration: underline;
+	cursor:pointer;
+}

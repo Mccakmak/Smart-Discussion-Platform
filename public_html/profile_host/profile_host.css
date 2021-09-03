@@ -1,0 +1,54 @@
+#host_box_1{
+	background-color: rgba(184, 206, 227,0.3);
+	grid-area: profile_infos;
+	border: 2px solid #2181ad;
+	margin: 5px;
+	border-radius: 25px;
+	
+}
+
+.host_box_2{
+	background-image: linear-gradient(#6d94bf, #446e9b 50%, #3e648d);
+	grid-area: profile_table;
+	padding: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.host_box_3{
+	background-color: rgba(184, 206, 227,0.3);
+	grid-area: profile_details;;
+	margin: 5px;
+	}
+
+.follow{
+	padding-left: 50px;
+	
+}
+
+.follow_button{
+	width: 100px;
+	
+}
+
+.list1{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	display: inline;}
+
+.list2{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	display: inline;
+
+}
+
+.name{
+	font-family:courier,arial,helvetica;
+	text-shadow: 0.8px 0.8px 0.8px rgb(113, 113, 211);
+}
+
+li{
+	display: inline;
+	
+}

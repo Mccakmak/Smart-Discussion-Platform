@@ -1,0 +1,44 @@
+#main_profile
+{
+    display: grid;  
+    height: 100%;
+    grid-template-rows: 0fr 1fr 0fr;    
+    grid-template-columns: 0.15fr 0.85fr;
+    grid-template-areas: "navbar navbar" "hot_topics profile" "footer footer";
+    padding: 0;
+
+}
+
+.profile
+{
+	grid-area: profile;
+}
+
+#inside_profile
+{
+	display: grid;  
+    height: 100%;
+    grid-template-rows: 0fr 0fr 0.97fr;    
+    grid-template-columns: 1fr;
+    grid-template-areas: "profile_infos" "profile_table" "profile_details";
+    padding: 0;
+}
+
+#inside_profile .DivToScroll
+{   
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+}
+
+#inside_profile .DivWithScroll
+{
+	height: 0px; /*temp value*/
+    overflow:scroll;
+    overflow-x:hidden;
+}

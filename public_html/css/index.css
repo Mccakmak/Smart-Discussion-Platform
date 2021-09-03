@@ -1,0 +1,15 @@
+.container-fluid
+{
+    display: grid;  
+    height: 100%;
+    grid-template-rows: 0fr 1fr 0fr;    
+    grid-template-columns: 0.15fr 0.85fr;
+    grid-template-areas: "navbar navbar" "hot_topics intro" "footer footer";
+    padding: 0;
+
+}
+/*for firefox space*/
+body {
+    overflow: hidden;
+}
+
